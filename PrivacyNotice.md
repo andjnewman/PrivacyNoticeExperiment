@@ -6,8 +6,6 @@ layout: default
 
 # Privacy Notice
 
-## Introduction
-
 We (**_{{ metarec.Controller }}_**) are committed to the responsible handling and security of personal data.  Your privacy is important to us and protected in law through the General Data Protection Regulation (GDPR) and other legislation, including the Data Protection Act 2018.  We must provide you with information setting out how we process your personal data.
 
 ### What is personal data?
