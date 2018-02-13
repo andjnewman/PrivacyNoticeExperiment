@@ -52,21 +52,27 @@ Data Processors are responsible for processing personal data on behalf of a cont
 
 The following organisations process this personal data:
 
+**_{{ metarec.Processors }}_**
+
+### How do these processors access the data?
+
+**_{{ metarec.DataSharing }}_**
+
+### is the data processed outside the UK?
+
 The data _is/is not_ processed outside the UK.
 
-_list of processors_
+
+
 
 How is it collected?
 Why is it being collected?
 How will it be used?
 What will be the effect of this on the individuals concerned?
 Is the intended use likely to cause individuals to object or complain?
-
 And as per the GDPR it must include the following points for clarification:
 Purposes and legal basis of processing
-
 Recipients of data
-
 Retention period or criteria (summarise and put in the link to the processes – Stephen)
 Right to request rectification
 The data subject shall have the right to obtain from the controller without undue delay the rectification of inaccurate personal data concerning him or her. Taking into account the purposes of the processing, the data subject shall have the right to have incomplete
