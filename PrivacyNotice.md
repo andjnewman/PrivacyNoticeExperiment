@@ -8,7 +8,7 @@ layout: default
 
 ## Introduction
 
-We (_{{ metarec.Controller }}_) are committed to the responsible handling and security of personal data.  Your privacy is important to us and protected in law through the General Data Protection Regulation (GDPR) and other legislation, including the Data Protection Act 2018.  We must provide you with information setting out how we process your personal data.
+We (**_{{ metarec.Controller }}_**) are committed to the responsible handling and security of personal data.  Your privacy is important to us and protected in law through the General Data Protection Regulation (GDPR) and other legislation, including the Data Protection Act 2018.  We must provide you with information setting out how we process your personal data.
 
 ### What is personal data?
 Personal data, is data which identifies an individual directly or indirectly, in particular by reference to an identifier such as their name or a reference number.
@@ -17,30 +17,30 @@ Some personal data is more sensitive in nature and requires more careful handlin
 
 ## What data is being collected?
 
-**Name of data:** _{{ metarec.Title }}_
+**Name of data: _{{ metarec.Title }}_ **
 
-**Decription of data:** _{{ metarec.Abstract }}_
+**Decription of data: _{{ metarec.Abstract }}_**
 
 ## Who is collecting it?
 
-_{{ metarec.Controller }}_ is the data controller for this personal data. Your personal data will be protected in line with the GDPR and any other relevant legislation.  _{{ metarec.Controller }}_ is responsible for overseeing data protection strategy and implementation to ensure compliance with legal requirements.  _{{ metarec.Controller }}_ will provide the Information Commissioner’s Office (ICO) with details about how it processes personal data.
+**_{{ metarec.Controller }}_** is the data controller for this personal data. Your personal data will be protected in line with the GDPR and any other relevant legislation.  **_{{ metarec.Controller }}_** is responsible for overseeing data protection strategy and implementation to ensure compliance with legal requirements.  **_{{ metarec.Controller }}_** will provide the Information Commissioner’s Office (ICO) with details about how it processes personal data.
 
-Contact the _{{ metarec.Controller }}_'s Data Protection Officer if you have any questions, or concerns about the handling of your personal information.
+Contact the **_{{ metarec.Controller }}_**'s Data Protection Officer if you have any questions, or concerns about the handling of your personal information.
 
 **Data Protection Officer**
 
-_{{ metarec.Controller }}_
+**_{{ metarec.Controller }}_**
 
 {% if metarec.Controller == "Defra" %}
-   _ Nobel House, Smith Square London _
+   **_Nobel House, Smith Square London_**
     
-   _ Phone: 0208 22 572 11 _
+   **_Phone: 0208 22 572 11_**
    
-   _ Email: gdpr@defra.gsi.gov.uk _
+   **_Email: gdpr@defra.gsi.gov.uk_**
     
 {% else %}
 
-   _Add address to lookup _
+   **_Add address to lookup _**
 
 {% endif %}
 
