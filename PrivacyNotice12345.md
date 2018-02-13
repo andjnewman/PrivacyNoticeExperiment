@@ -3,6 +3,7 @@ layout: default
 ---
 
 {% for metarec in site.data.goatlicences %}
+{% if metarec.URI == "12345" %}
 
 # Privacy Notice
 
@@ -101,4 +102,5 @@ When we make changes, such as where legislation changes, we will update this not
 ## How we use your data?
 We process your personal data in a number of ways to deliver Public Services.
 
- {% endfor %}
+{% endif %}
+{% endfor %}
