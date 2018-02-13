@@ -52,7 +52,7 @@ Data Processors are responsible for processing personal data on behalf of a cont
 
 The following organisations process this personal data:
 
-**_{{ metarec.Processors }}_**
+**_{{ metarec.Processor }}_**
 
 ### How do these processors access the data?
 
