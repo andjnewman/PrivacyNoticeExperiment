@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% for metarec in site.data.goatlicences %}
+
 # PrivacyNoticeExperiment
 
 ## Introduction
@@ -23,7 +25,7 @@ layout: default
 
 ## Introduction
 
-We (_controller_) are committed to the responsible handling and security of personal data.  Your privacy is important to us and protected in law through the General Data Protection Regulation (GDPR) and other legislation, including the Data Protection Act 2018.  We must provide you with information setting out how we process your personal data.
+We (_{{ metarec.Controller }}_) are committed to the responsible handling and security of personal data.  Your privacy is important to us and protected in law through the General Data Protection Regulation (GDPR) and other legislation, including the Data Protection Act 2018.  We must provide you with information setting out how we process your personal data.
 
 ### What is personal data?
 Personal data, is data which identifies an individual directly or indirectly, in particular by reference to an identifier such as their name or a reference number.
