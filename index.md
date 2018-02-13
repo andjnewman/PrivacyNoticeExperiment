@@ -21,4 +21,4 @@ layout: default
 
 ### Explore
 
-[Click here to view the experimental privacy notice](PrivacyNotice)
+[Click here to view the experimental privacy notice](PrivacyNotice12345)
