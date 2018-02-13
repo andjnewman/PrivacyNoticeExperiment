@@ -14,7 +14,6 @@ layout: default
 * This page has been built quickly using a simple GitHub pages/Jekyl implementation.
 * This page presents a Data Protection Privacy Notice that is auto-generated from a CSV file of metadata which can be viewed [Here](#).
 * The privacy notice (and metadata used to build this page) is entirely fictional
-
-'''
+```
 * Comments shown in boxes describe what is happening behind the scenes
-'''
+```
