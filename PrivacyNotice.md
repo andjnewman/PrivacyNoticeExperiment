@@ -17,9 +17,13 @@ Some personal data is more sensitive in nature and requires more careful handlin
 
 ## What data is being collected?
 
-**Name of data: _{{ metarec.Title }}_ **
+### Name of data:###
 
-**Decription of data: _{{ metarec.Abstract }}_**
+**_{{ metarec.Title }}_**
+
+### Decription of data:
+
+**_{{ metarec.Abstract }}_**
 
 ## Who is collecting it?
 
@@ -27,13 +31,12 @@ Some personal data is more sensitive in nature and requires more careful handlin
 
 Contact the **_{{ metarec.Controller }}_**'s Data Protection Officer if you have any questions, or concerns about the handling of your personal information.
 
-**Data Protection Officer**
-
-**_{{ metarec.Controller }}_**
 
 {% if metarec.Controller == "Defra" %}
+   **_{{ metarec.Controller }}_**
+   
    **_Nobel House, Smith Square London_**
-    
+   
    **_Phone: 0208 22 572 11_**
    
    **_Email: gdpr@defra.gsi.gov.uk_**
