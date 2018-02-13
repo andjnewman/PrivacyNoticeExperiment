@@ -34,19 +34,32 @@ Some personal data is more sensitive in nature and requires more careful handlin
 
 ## What data is being collected?
 
-**Name of data:** _DatasetName_
-**Decription of data:** _description_
+**Name of data:** _{{ metarec.Title }}_
+
+**Decription of data:** _{{ metarec.Abstract }}_
 
 ## Who is collecting it?
 
-_controller_ is the data controller for this personal data. Your personal data will be protected in line with the GDPR and any other relevant legislation.  _controller_ is responsible for overseeing data protection strategy and implementation to ensure compliance with legal requirements.  _controller_ will provide the Information Commissioner’s Office (ICO) with details about how it processes personal data.
+_{{ metarec.Controller }}_ is the data controller for this personal data. Your personal data will be protected in line with the GDPR and any other relevant legislation.  _{{ metarec.Controller }}_ is responsible for overseeing data protection strategy and implementation to ensure compliance with legal requirements.  _{{ metarec.Controller }}_ will provide the Information Commissioner’s Office (ICO) with details about how it processes personal data.
 
-Contact the _Controller_'s Data Protection Officer if you have any questions, or concerns about the handling of your personal information.
+Contact the _{{ metarec.Controller }}_'s Data Protection Officer if you have any questions, or concerns about the handling of your personal information.
 
 **Data Protection Officer**
-_Address_
-_email_
-_phone_
+
+_{{ metarec.Controller }}_
+
+{% if metarec.Controller == "Defra" %}
+   _ Nobel House, Smith Square London _
+    
+   _ Phone: 0208 22 572 11 _
+   
+   _ Email: gdpr@defra.gsi.gov.uk _
+    
+{% else %}
+
+   _Add address to lookup _
+
+{% endif %}
 
 ## Who will it be shared with?
 
