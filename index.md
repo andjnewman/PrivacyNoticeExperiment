@@ -17,11 +17,9 @@ layout: default
 * The following section of this page presents a Privacy Notice for a dataset that is auto-generated from a CSV file of metadata which can be viewed [Here](#).
 * Whilst this experiment portrays a dataset it may be more appropriate to structure privacy notices around services the user understands.
 * The privacy notice (and metadata used to build this page) is entirely fictional.
-```
-Comments shown in boxes describe what is happening behind the scenes
-```
+* Text shown in **bold** is automatically generated. Text shown in [_square brackets and italics_] describes what is happening behind the scenes
 
-## Privacy Notice
+# Privacy Notice
 
-Blurb...
+This Privacy notice Sets out how **Organisation Name** will use your personal data.
 
