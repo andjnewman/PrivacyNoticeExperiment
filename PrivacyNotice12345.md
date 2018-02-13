@@ -52,18 +52,30 @@ Data Processors are responsible for processing personal data on behalf of a cont
 
 The following organisations process this personal data:
 
+{% if metarec.Processor == "" %}
+
+Only the data controller processes this data.
+
+{% else %}
+
 **_{{ metarec.Processor }}_**
 
 ### How do these processors access the data?
 
 **_{{ metarec.DataSharing }}_**
 
+{% endif %}
+
 ### is the data processed outside the UK?
 
 The data _is/is not_ processed outside the UK.
 
+[Not implemented in current CSV]
 
 
+
+
+<!--
 
 How is it collected?
 Why is it being collected?
@@ -81,6 +93,8 @@ Right to request we no longer process your personal data
 Source of Data (Supply from a third party)
 
 Consequences of failure to supply data
+
+-->
 
 ## How do I make a complaint about how my personal data has been handled?
 If you think your data has been misused or that it hasn’t kept it secure, you should contact the Data Protection Officer identifeid at section 2.
