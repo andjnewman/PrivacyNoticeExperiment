@@ -9,16 +9,16 @@ layout: default
 ### Experiment Aims
 
 * To show that privacy notices don't need to be hand crafted.
-* To show that well-structured and controlled metadata can be used to auto-build a high quality privacy notice.
+* To show that well-structured and controlled metadata can be used to automatically build a high quality privacy notice.
 * To inspire further thinking on this topic.
 
 ### Approach
-* This page has been built quickly using a simple GitHub pages/Jekyl implementation.
-* The following section of this page presents a Privacy Notice for a dataset that is auto-generated from a CSV file of metadata which can be viewed [Here](#).
-* Whilst this experiment portrays a dataset it may be more appropriate to structure privacy notices around services the user understands.
-* The privacy notice (and metadata used to build this page) is entirely fictional.
-* Text shown in **_italics_** is automatically generated.
+* This page has been built quickly using a simple GitHub pages/Jekyl implementation (apologies for the ugly templating)
+* The [Privacy Notice page](PrivacyNotice12345) presents a Privacy Notice for a dataset that is auto-generated from a CSV file of metadata which can be viewed [Here](https://github.com/andjnewman/PrivacyNoticeExperiment/blob/master/_data/goatlicences.csv).
+* Whilst this experiment portrays a dataset it may be more appropriate to structure privacy notices (and thus metadata) around services the user understands.
+* all content on the privacy notice and csv is entirely fictional (it is not an example of a good privacy notice!).
+* Text shown in **_italics_** on the privacy notice is automatically generated based on the CSV data.
 
-### Explore
+### Take a look...
 
 [Click here to view the experimental privacy notice](PrivacyNotice12345)
