@@ -50,7 +50,8 @@ Contact the **_{{ metarec.Controller }}_**'s Data Protection Officer if you have
 We process your personal data in a number of ways to deliver Public Services.
 
 {% if metarec.LegalBasisProcessing == "Public interest" %}
-   **_{{ We are processing this data to deliver a service that is in the public interest }}_**
+   
+   **_ We are processing this data to deliver a service that is in the public interest _**
     
 {% else %}
 
