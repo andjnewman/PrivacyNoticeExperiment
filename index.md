@@ -17,7 +17,7 @@ layout: default
 * The [Privacy Notice page](PrivacyNotice12345) presents a Privacy Notice for a dataset that is auto-generated from a CSV file of metadata which can be viewed [Here](https://github.com/andjnewman/PrivacyNoticeExperiment/blob/master/_data/goatlicences.csv).
 * Whilst this experiment portrays a dataset it may be more appropriate to structure privacy notices (and thus metadata) around services the user understands.
 * all content on the privacy notice and csv is entirely fictional (it is not an example of a good privacy notice!).
-* Text shown in **_italics_** on the privacy notice is automatically generated based on the CSV data.
+* Text shown in **_italics_** on the privacy notice is automatically generated based on the CSV data or hard coded logic based on the CSV data.
 
 ### Take a look...
 
