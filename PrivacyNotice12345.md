@@ -46,6 +46,36 @@ Contact the **_{{ metarec.Controller }}_**'s Data Protection Officer if you have
 
 {% endif %}
 
+## How we use your data?
+We process your personal data in a number of ways to deliver Public Services.
+
+{% if metarec.LegalBasisProcessing == "Public interest" %}
+   **_{{ We are processing this data to deliver a service that is in the public interest }}_**
+    
+{% else %}
+
+   **_Add other legal basis to lookup _**
+
+{% endif %}
+
+### Purpose of processing this data
+
+**_{{ metarec.PurposeOfProcessing }}_**
+
+### Data Capture and Storage
+
+**_{{ metarec.Source }}_**
+
+**_{{ metarec.DataFormat }}_**
+
+### Data Security Rating
+
+**_{{ metarec.DataSecurity }}_**
+
+### Data retention
+
+**_{{ metarec.RetentionSchedule }}_**
+
 ## Who will it be shared with?
 
 Data Processors are responsible for processing personal data on behalf of a controller. Data processors have specific legal obligations; for example, they are required to maintain records of personal data and processing activities. Each processor has a legal liability if they are responsible for a breach.
@@ -77,11 +107,6 @@ The data **_is_** processed outside the UK.
 The data **_is not_** processed outside the UK.   
 
 {% endif %}
-
-
-
-[Not implemented in current CSV]
-
 
 
 
@@ -127,10 +152,6 @@ Any complaint to the Information Commissioner is without prejudice to your right
 ## Changes to this policy
 
 When we make changes, such as where legislation changes, we will update this notice and do our best to let you know.  We can only do this, if you let us have your contact details, your preferred forms of communication and you inform us of any changes.
-
-
-## How we use your data?
-We process your personal data in a number of ways to deliver Public Services.
 
 {% endif %}
 {% endfor %}
