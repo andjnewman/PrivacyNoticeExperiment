@@ -68,7 +68,17 @@ Only the data controller processes this data.
 
 ### is the data processed outside the UK?
 
-The data _is/is not_ processed outside the UK.
+{% if metarec.OverseasProcessing == "Yes" %}
+
+The data **_is_** processed outside the UK.   
+    
+{% else %}
+
+The data **_is not_** processed outside the UK.   
+
+{% endif %}
+
+
 
 [Not implemented in current CSV]
 
