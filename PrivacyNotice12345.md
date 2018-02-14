@@ -34,11 +34,11 @@ Contact the **_{{ metarec.Controller }}_**'s Data Protection Officer if you have
 {% if metarec.Controller == "Defra" %}
    **_{{ metarec.Controller }}_**
    
-   **_Nobel House, Smith Square London_**
+   **_Goat HQ, Jones Square, London_**
    
-   **_Phone: 0208 22 572 11_**
+   **_Phone: 04056 156156_**
    
-   **_Email: gdpr@defra.gsi.gov.uk_**
+   **_Email: gdpr@goats.gov.uk_**
     
 {% else %}
 
