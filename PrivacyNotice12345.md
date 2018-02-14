@@ -136,7 +136,7 @@ Consequences of failure to supply data
 -->
 
 ## How do I make a complaint about how my personal data has been handled?
-If you think your data has been misused or that it hasn’t kept it secure, you should contact the Data Protection Officer identifeid at section 2.
+If you think your data has been misused or that it hasn’t kept it secure, you should contact the Data Protection Officer identifeid above.
 
 ### Right to complain to the ICO
 
