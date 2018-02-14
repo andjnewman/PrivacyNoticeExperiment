@@ -31,7 +31,7 @@ Some personal data is more sensitive in nature and requires more careful handlin
 Contact the **_{{ metarec.Controller }}_**'s Data Protection Officer if you have any questions, or concerns about the handling of your personal information.
 
 
-{% if metarec.Controller == "Defra" %}
+{% if metarec.Controller == "Goat Regulating Agency" %}
    **_{{ metarec.Controller }}_**
    
    **_Goat HQ, Jones Square, London_**
