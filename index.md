@@ -13,7 +13,7 @@ layout: default
 ### Possible benefits
 
 * Privacy notices are produced to an agreed standard that meets user needs and which become recognisable to users 
-* Privacy notices can stored in a single repository (personal.data.gov.uk perhaps)
+* Privacy notices can stored in a single repository (personal.data.gov.uk perhaps) and linked to from the relevent service(s).
 * Gives personal data owners a reason to document personal data/services using standardised metadata
 * Reduces workload of data protection specialists - no longer have to craft notices on a case by case basis
 
@@ -21,6 +21,7 @@ layout: default
 
 * This experiment has been built quickly using a simple GitHub pages/Jekyll implementation (apologies for the ugly templating)
 * The [Privacy Notice page](PrivacyNotice12345) presents a Privacy Notice for a dataset that is auto-generated from a CSV file of metadata which can be viewed [Here](https://github.com/andjnewman/PrivacyNoticeExperiment/blob/master/_data/goatlicences.csv).
+* The metadata structure is based on an emerging standard/profile i am developing.
 * Whilst this experiment portrays a dataset it may be more appropriate to structure privacy notices (and thus metadata) around services the user understands.
 * All content on the privacy notice and csv is entirely fictional (it is not an example of a good privacy notice!).
 * Text shown in **_italics_** on the privacy notice is automatically generated based on the CSV data or hard coded logic based on the CSV data. (In a real implementation hard coding would be minimised through use of controlled lists etc)
